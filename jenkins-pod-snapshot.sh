@@ -44,4 +44,3 @@ if [ "$1" = "--restore" ]; then
 
   echo "${green}Successfully copied jenkins folders from <($JENKINS_HOME)> directory back to jenkins server!${reset}"
 fi
-

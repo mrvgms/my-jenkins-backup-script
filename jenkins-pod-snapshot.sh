@@ -34,7 +34,6 @@ if [ "$1" = "--sync" ]; then
 fi
 
 
-
 # Copies folders under ./jenkins_home directory back to jenkins server
 if [ "$1" = "--restore" ]; then
   kubectl cp $JENKINS_HOME/secrets tools/$JENKINS_POD_NAME:/var/jenkins_home 2 > /dev/null

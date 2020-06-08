@@ -6,7 +6,6 @@ red=$(tput setaf 1)
 reset=$(tput sgr0)
 
 
-
 # Variables
 JENKINS_POD_NAME="$(kubectl get pods -n tools | grep jenkins-deploy | awk '{print $1}')"
 # echo $JENKINS_POD_NAME

@@ -22,7 +22,6 @@ if [ ! -d "$JENKINS_HOME" ]; then
 fi
 
 
-
 # Copies important folders from jenkins server to jenkins_home directory under ./
 if [ "$1" = "--sync" ]; then
   kubectl cp tools/$JENKINS_POD_NAME:/var/jenkins_home/secrets $JENKINS_HOME/secrets  2 > /dev/null

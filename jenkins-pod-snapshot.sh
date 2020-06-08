@@ -14,7 +14,6 @@ JENKINS_HOME='./jenkins_home'
 # echo $JENKINS_HOME
 
 
-
 # Creates jenkins_home folder under current directory if it doesn't exist.
 if [ ! -d "$JENKINS_HOME" ]; then
   mkdir -p "$JENKINS_HOME"

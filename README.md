@@ -56,6 +56,6 @@ Successfully copied jenkins folders from <(./jenkins_home)> directory
 back to jenkins server!
 ```
 
-This command will copy the above files and folders inside `jenkins_home` back to the Jenkins server/pod. 
+This command will copy the above files and folders inside `jenkins_home` back to the Jenkins server/pod 
 
 
